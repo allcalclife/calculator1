@@ -1,0 +1,44 @@
+
+
+    .item {
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: flex-start;
+        background-color: lightyellow;
+    }
+
+    .item-icon {
+        width: 90px;
+        height: 90px;
+        margin-right: 10px; /* 아이콘과 텍스트 사이의 간격 추가 */
+    }
+
+    .text-content {
+        flex-grow: 1;
+    }
+
+    .item h3 {
+        margin: 0;
+        color: green;
+    }
+
+    .sub-items {
+        list-style: none;
+        padding: 0;
+        margin: 5px 0 0 0; /* 타이틀과 서브 아이템 사이의 간격 최소화 */
+    }
+
+    .sub-items li {
+        margin-right: 10px; /* 오른쪽 여백을 추가하여 간격 조정 */
+        cursor: pointer;
+        color: blue;
+        text-decoration: underline;
+        display: inline-block; /* 인라인 블록으로 설정하여 한 줄에 표시 */
+    }
+
+    .sub-items li:hover {
+        color: darkblue;
+    }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>비타민 IU 계산기</title>
+    <link rel="stylesheet" href="styles_sub.css">
+    <style>
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .input-subgroup {
+            display: flex;
+            align-items: center;
+        }
+        .input-group label {
+            margin-bottom: 5px;
+        }
+        .input-group span {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .input-group input {
+            margin-bottom: 10px;
+        }
+        .reset-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0fbf00;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img src="images/logo.jpeg" alt="로고" style="display: block; width: 100%; height: auto; position: fixed; top: 0; right: 0; cursor: pointer; z-index: 1000;" onclick="location.href='index.html'">
+
+    <div class="container" style="margin-top: 100px; display: flex; flex-direction: column; align-items: center;">
+
+        <div class="input-group">
+            <label for="vitaminA_IU">Vitamin A(retinol)</label>
+            <div class="input-subgroup">
+                <input type="number" id="vitaminA_IU" placeholder="IU (retinol)">
+                <span>IU</span>
+                <span>=</span>
+                <input type="number" id="vitaminA_mg" placeholder="mg (retinol)">
+                <span>mg</span>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label for="vitaminB12_IU">Vitamin B12(cyanocobalamin)</label>
+            <div class="input-subgroup">
+                <input type="number" id="vitaminB12_IU" placeholder="IU">
+                <span>IU</span>
+                <span>=</span>
+                <input type="number" id="vitaminB12_ug" placeholder="µg (cyanocobalamin)">
+                <span>µg</span>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label for="vitaminD_IU">Vitamin D</label>
+            <div class="input-subgroup">
+                <input type="number" id="vitaminD_IU" placeholder="IU">
+                <span>IU</span>
+                <span>=</span>
+                <input type="number" id="vitaminD_ug" placeholder="µg">
+                <span>µg</span>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label for="vitaminE_IU">Vitamin E(d-alpha-tocopherol)</label>
+            <div class="input-subgroup">
+                <input type="number" id="vitaminE_IU" placeholder="IU (d-alpha-tocopherol)">
+                <span>IU</span>
+                <span>=</span>
+                <input type="number" id="vitaminE_mg" placeholder="mg (d-alpha-tocopherol)">
+                <span>mg</span>
+            </div>
+        </div>
+
+        <button class="reset-button" id="resetButton">reset</button>
+    </div>
+
+    <script src="vitaminConverter.js"></script>
+</body>
+</html>

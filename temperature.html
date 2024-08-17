@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles_sub.css">
+</head>
+<body>
+<div style="display:flex; ">
+    <img src="images/logo.jpeg" alt="로고" class="logo" onclick="location.href='index.html'">
+</div>
+    
+
+   
+    
+
+    <div class="container" style="flex-direction: column;">
+        <div class="input-group" style="flex-direction: row; align-items: center;">
+            <label for="celsius">Celcius</label> <br>
+            <input type="number" id="celsius" placeholder="섭씨 입력">
+            <span>°C</span>
+        </div>
+        <div class="input-group" style="flex-direction: row; align-items: center;">
+            <label for="fahrenheit">Fahrenheit</label> <br>
+            <input type="number" id="fahrenheit" placeholder="화씨 입력">
+            <span>°F</span>
+        </div>
+        <div class="input-group" style="flex-direction: row; align-items: center;">
+            <label for="kelvin">Kelvin</label> <br>
+            <input type="number" id="kelvin" placeholder="켈빈 입력">
+            <span>K</span>
+        </div>
+    </div>
+
+    <script src="temperature.js"></script>
+</body>
+</html>

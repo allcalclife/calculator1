@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI 계산기</title>
+    <link rel="stylesheet" href="styles_sub.css">
+    <style>
+        .label{
+            color:gray;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+      <img src="images/logo.jpeg" alt="로고" class="logo" onclick="location.href='index.html'">
+    
+
+    <div class="container" style="flex-direction: column;">
+        <div class="input-group" style="flex-direction: row; align-items: center;">
+            <label class="label" for="height">Height</label> <br>
+            <input type="number" id="height" placeholder="키 입력">
+            <span>cm</span>
+        </div>
+        <div class="input-group" style="flex-direction: row; align-items: center;">
+            <label class="label" for="weight">Weight</label> <br>
+            <input type="number" id="weight" placeholder="체중 입력">
+            <span>kg</span>
+        </div>
+        <div class="input-group" style="flex-direction: row; align-items: center;">
+            <label class="label" for="bmi">BMI</label> <br>
+            <input type="text" id="bmi" readonly>
+             <span style="color:rgba(0,0,0,0)">oo</span>
+        </div>
+    </div>
+
+    <script src="bmi.js"></script>
+</body>
+</html>

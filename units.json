@@ -1,0 +1,146 @@
+{
+
+    "atmospheric pressure": {
+        "units": ["Pa(Pascal)", "hPa", "kPa", "mbar","bar", "atm"],
+            "conversionRates": {
+                    "Pa(Pascal)": 1,
+                    "kPa": 0.001,
+                    "hPa": 0.01,
+                    "bar": 0.00001,
+                    "atm": 0.00000986923,
+                    "mbar": 0.01
+                }
+            
+    },
+
+
+    "volume for cooking": {
+        "units": ["L(liter)", "mL", "cup", "tbsp(tablespoon)", "tsp(teaspoon)", "qt(quart)", "pt(pint)", "gallon"],
+        "conversionRates": {
+            "L(liter)": 1,
+            "mL": 1000,
+            "cup": 4.16667,
+            "tbsp(tablespoon)": 66.6667,
+            "tsp(teaspoon)": 200,
+            "qt(quart)": 1.05669,
+            "pt(pint)": 2.11338,
+            "gallon": 0.264172
+        }
+    },
+    "weight for cooking": {
+        "units": ["kg", "g", "mg", "lb", "oz"],
+        "conversionRates": {
+            "kg": 1,
+            "g": 1000,
+            "mg": 1000000,
+            "lb": 2.20462,
+            "oz": 35.274
+        }
+    },
+    "length": {
+        "units": ["m", "km", "cm", "mm", "µm", "nm", "mi", "yd", "ft", "in"],
+        "conversionRates": {
+            "m": 1,
+            "km": 0.001,
+            "cm": 100,
+            "mm": 1000,
+            "µm": 1000000,
+            "nm": 1000000000,
+            "mi": 0.000621371,
+            "yd": 1.09361,
+            "ft": 3.28084,
+            "in": 39.3701
+        }
+    },
+    "area": {
+        "units": ["m²", "km²", "cm²", "mm²", "ha", "ac", "mi²", "yd²", "ft²", "in²"],
+        "conversionRates": {
+            "m²": 1,
+            "km²": 0.000001,
+            "cm²": 10000,
+            "mm²": 1000000,
+            "ha": 0.0001,
+            "ac": 0.000247105,
+            "mi²": 0.000000386102,
+            "yd²": 1.19599,
+            "ft²": 10.7639,
+            "in²": 1550
+        }
+    },
+    "volume": {
+        "units": ["m³", "L(liter)", "mL(cm³,cc)", "dm³", "mm³", "in³", "ft³", "yd³", "gal(gallon)","홉", "되", "말"],
+        "conversionRates": {
+            "m³": 1,
+            "L(liter)": 1000,
+            "mL(cm³,cc)": 1000000,
+            "dm³": 1000,
+            "mm³": 1000000000,
+            "in³": 61023.7,
+            "ft³": 35.3147,
+            "yd³": 1.30795,
+            "gal(gallon)": 264.172,
+            "홉": 5543.54,
+            "되": 554.354,
+            "말": 55.4354
+        }
+    },
+    "weight": {
+        "units": ["kg", "g", "mg", "lb", "oz"],
+        "conversionRates": {
+            "kg": 1,
+            "g": 1000,
+            "mg": 1000000,
+            "lb": 2.20462,
+            "oz": 35.274
+        }
+    },
+    "angle": {
+        "units": ["degree", "radian"],
+        "conversionRates": {
+            "degree": 1,
+            "radian": 0.0174533
+        }
+    },
+    "speed": {
+        "units": ["m/s", "km/h", "mph", "ft/s"],
+        "conversionRates": {
+            "m/s": 1,
+            "km/h": 3.6,
+            "mph": 2.23694,
+            "ft/s": 3.28084
+        }
+    },
+    "acceleration": {
+        "units": ["m/s²", "ft/s²", "g"],
+        "conversionRates": {
+            "m/s²": 1,
+            "ft/s²": 3.28084,
+            "g": 0.101971
+        }
+    },
+    "angular velocity": {
+        "units": ["rad/s", "deg/s", "rpm"],
+        "conversionRates": {
+            "rad/s": 1,
+            "deg/s": 57.2958,
+            "rpm": 9.5493
+        }
+    },
+    "frequency": {
+        "units": ["Hz", "kHz", "MHz", "GHz"],
+        "conversionRates": {
+            "Hz": 1,
+            "kHz": 0.001,
+            "MHz": 0.000001,
+            "GHz": 0.000000001
+        }
+    },
+    "time": {
+        "units": ["s", "min", "h"],
+        "conversionRates": {
+            "s": 1,
+            "min": 0.0166667,
+            "h": 0.000277778
+        }
+    }
+}
